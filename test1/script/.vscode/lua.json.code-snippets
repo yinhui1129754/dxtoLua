@@ -1,0 +1,193 @@
+{
+	// Place your 全局 snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+    // }
+    "loadImg":{
+        "prefix": "loadImg",
+        "body": [
+            "loadImg(url,endCallName)"
+        ],
+        "description": "加载图片资源"
+    },
+    "addMouseEvent":{
+        "prefix": "addMouseEvent",
+        "body": [
+            "addMouseEvent()"
+        ],
+        "description": "添加鼠标事件"
+    },
+    "luaStackInfo":{
+        "prefix": "luaStackInfo",
+        "body": [
+            "luaStackInfo()"
+        ],
+        "description": "显示lua虚拟栈节点信息"
+    },
+	"draw.fillStyle": {
+        "prefix": "draw.fillStyle",
+        "body": [
+            "draw.fillStyle(hex,a)"
+        ],
+        "description": "填充的颜色"
+	},
+	"draw.strokeStyle": {
+        "prefix": "draw.strokeStyle",
+        "body": [
+            "draw.strokeStyle(hex,a)"
+        ],
+        "description": "绘制的颜色"
+	},
+	"draw.fillRect": {
+        "prefix": "draw.fillRect",
+        "body": [
+            "draw.fillRect(x,y,w,h)"
+        ],
+        "description": "填充矩形"
+	},
+	"draw.drawLine": {
+        "prefix": "draw.drawLine",
+        "body": [
+            "draw.drawLine(x1,y1,x2,y2)"
+        ],
+        "description": "画线"
+	},
+	"draw.fillArc": {
+        "prefix": "draw.fillArc",
+        "body": [
+            "draw.fillArc(x,y,rW,rH)"
+        ],
+        "description": "填充绘制圆"
+	},
+	"draw.fillRoundRect": {
+        "prefix": "draw.fillRoundRect",
+        "body": [
+            "draw.fillRoundRect(x,y,w,h,rX,rY)"
+        ],
+        "description": "填充绘制圆角矩形"
+	},
+	"draw.drawArc": {
+        "prefix": "draw.drawArc",
+        "body": [
+            "draw.drawArc(x,y,w,h)"
+        ],
+        "description": "绘制圆"
+	},
+	"draw.drawRect": {
+        "prefix": "draw.drawRect",
+        "body": [
+            "draw.drawRect(x,y,w,h)"
+        ],
+        "description": "绘制矩形"
+	},
+	"draw.drawRoundRect": {
+        "prefix": "draw.drawRoundRect",
+        "body": [
+            "draw.drawRoundRect(x,y,w,h,rX,rY)"
+        ],
+        "description": "绘制圆角矩形"
+	},
+	"draw.save": {
+        "prefix": "draw.save",
+        "body": [
+            "draw.save()"
+        ],
+        "description": "保存变换"
+	},
+	"draw.restore": {
+        "prefix": "draw.restore",
+        "body": [
+            "draw.restore()"
+        ],
+        "description": "返回变换"
+	},
+	"draw.rotate": {
+        "prefix": "draw.rotate",
+        "body": [
+            "draw.rotate(angle,x,y)"
+        ],
+        "description": "旋转"
+	},
+	"draw.scale": {
+        "prefix": "draw.scale",
+        "body": [
+            "draw.scale(zoom,x,y)"
+        ],
+        "description": "缩放"
+	},
+	"draw.skew": {
+        "prefix": "draw.skew",
+        "body": [
+            "draw.skew(angleX,angleY,x,y)"
+        ],
+        "description": "扭曲"
+    },
+    "draw.drawImg": {
+        "prefix": "draw.drawImg",
+        "body": [
+            "draw.drawImg(url,x,y)"
+        ],
+        "description": "绘制图片"
+    },
+    "draw.drawStr": {
+        "prefix": "draw.drawStr",
+        "body": [
+            "draw.drawStr(str,x,y)"
+        ],
+        "description": "绘制图片"
+    },
+    "window.showconsole":{
+        "prefix": "window.showconsole",
+        "body": [
+            "window.showconsole()"
+        ],
+        "description": "显示打印控制台"
+    },
+    "window.hideconsole":{
+        "prefix": "window.hideconsole",
+        "body": [
+            "window.hideconsole()"
+        ],
+        "description": "隐藏打印控制台"
+    },
+    "window.setwidth":{
+        "prefix": "window.setwidth",
+        "body": [
+            "window.setwidth(w)"
+        ],
+        "description": "设置宽度"
+    },
+    "window.setheight":{
+        "prefix": "window.setheight",
+        "body": [
+            "window.setheight(h)"
+        ],
+        "description": "设置高度"
+    },
+    "window.getheight":{
+        "prefix": "window.getheight",
+        "body": [
+            "window.getheight()"
+        ],
+        "description": "获取高度"
+    },
+    "window.getwidth":{
+        "prefix": "window.getwidth",
+        "body": [
+            "window.getwidth()"
+        ],
+        "description": "隐藏打印控制台"
+    }
+}

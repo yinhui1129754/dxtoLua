@@ -1,0 +1,11 @@
+{
+    "Lua.diagnostics.globals": [
+        "draw",
+        "",
+        "window"
+    ],
+    "Lua.diagnostics.disable": [
+        "lowercase-global"
+    ],
+    "files.encoding": "gb2312"
+}
